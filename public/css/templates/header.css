@@ -1,0 +1,25 @@
+
+header .menu{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.menu .title{
+    letter-spacing: .3rem;
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu img{
+    width: 1.5vw;
+
+}
+

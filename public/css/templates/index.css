@@ -1,0 +1,79 @@
+main .frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.frame .balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+}
+
+.operation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20vw;
+    border-bottom: 0.5px blue solid;
+}
+
+.type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 3vw;
+}
+
+#checkel{
+    margin-right: 3vw;
+}
+
+.in-out {
+
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 5px;
+    border: 0.5px blue solid;
+    padding-top: 2vh;
+}
+
+.in-out p {
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+.in-out .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.in-out input {
+    width: 10vw;
+}
+
+.in-out select {
+    width: 10vw;
+}
+
+.in-out button {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}

@@ -1,0 +1,8 @@
+/** IMPORTS **/
+@import url("/css/templates/header.css");
+@import url("/css/templates/index.css");
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: 	#191970;
+}
